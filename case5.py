@@ -34,7 +34,7 @@
 # 第三种方法：选择排序法
 seq = []
 for i in range(3):
-    num = input("please input %dth number:" % (i + 1))
+    num = int(input("please input %dth number:" % (i + 1)))
     seq.append(num)
 for i in range(len(seq) - 1):
     min_index = i
